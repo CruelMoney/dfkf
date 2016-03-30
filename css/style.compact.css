@@ -53,7 +53,7 @@ ul, ol { list-style-type: none; }
 
 .grey { color: #969F9E !important; }
 
-.nude { color: #ba8a79 !important; }
+.nude { color: blue !important; }
 
 /* Element styling begins here */
 .container { width: 80%; background-color: white; }
@@ -136,7 +136,7 @@ footer { margin-bottom: 80px; }
 
 .white-btn { padding: 0px; height: 40px; width: 150px; background-color: white; border: 0; display: block; font-weight: 700; }
 
-.nude-btn { padding: 0px; height: 40px; width: 150px; background-color: #ba8a79; color: white; border: 0; display: block; font-weight: 700; }
+.nude-btn { padding: 0px; height: 40px; width: 150px; background-color: blue; color: white; border: 0; display: block; font-weight: 700; }
 
 .btn-center { margin: 0 auto; }
 
@@ -154,7 +154,7 @@ footer { margin-bottom: 80px; }
 
 .main-menu a { text-transform: uppercase; text-decoration: none; font-weight: 600; color: black; }
 
-.main-menu a:hover { color: #ba8a79; }
+.main-menu a:hover { color: blue; }
 
 .navbar-toggle .icon-bar { background-color: black; height: 5px; width: 30px; margin-top: 5px; }
 
@@ -174,7 +174,7 @@ footer { margin-bottom: 80px; }
 
 .mobile-navigation li { border-bottom: 1px solid gray; padding: 15px; padding-left: 0; }
 
-.mobile-navigation a:hover { color: #ba8a79; }
+.mobile-navigation a:hover { color: blue; }
 
 .mobile-navigation > ul > li > ul { margin-top: 10px; padding-left: 20px; font-weight: 500px !important; -webkit-transition: .2s; transition: .2s; transition: visibility 0s, opacity 0.5s linear; }
 
@@ -186,7 +186,7 @@ footer { margin-bottom: 80px; }
 
 .nav-active { left: 0px; }
 
-.li-active > a { color: #ba8a79 !important; }
+.li-active > a { color: blue !important; }
 
 .hidden { visibility: hidden !important; opacity: 0; }
 
@@ -200,7 +200,7 @@ footer { margin-bottom: 80px; }
 
 .side-menu a { text-transform: uppercase; text-decoration: none; font-weight: 600; color: black; }
 
-.side-menu a:hover { color: #ba8a79; }
+.side-menu a:hover { color: blue; }
 
 /** Responsive specific styling splitted in four parts: First part: Xs devices (768px and down) Second part: Small devices (tablets, 768px and up) Third part: Medium devices (desktops, 992px and up) Fourth part: Large devices (large desktops, 1200px and up) */
 /* Small devices (tablets, 768px and down) */

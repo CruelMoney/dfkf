@@ -145,7 +145,7 @@ ul, ol {
   color: #969F9E !important; }
 
 .nude {
-  color: #ba8a79 !important; }
+  color: black !important; }
 
 /*
  * Element styling begins here
@@ -328,7 +328,7 @@ footer {
   padding: 0px;
   height: 40px;
   width: 150px;
-  background-color: #ba8a79;
+  background-color: black;
   color: white;
   border: 0;
   display: block;
@@ -366,7 +366,7 @@ footer {
   color: black; }
 
 .main-menu a:hover {
-  color: #ba8a79; }
+  color: black; }
 
 .navbar-toggle .icon-bar {
   background-color: black;
@@ -434,7 +434,7 @@ footer {
   padding-left: 0; }
 
 .mobile-navigation a:hover {
-  color: #ba8a79; }
+  color: black; }
 
 .mobile-navigation > ul > li > ul {
   margin-top: 10px;
@@ -464,7 +464,7 @@ footer {
   left: 0px; }
 
 .li-active > a {
-  color: #ba8a79 !important; }
+  color: black !important; }
 
 .hidden {
   visibility: hidden !important;
@@ -489,7 +489,7 @@ footer {
     font-weight: 600;
     color: black; }
   .side-menu a:hover {
-    color: #ba8a79; }
+    color: black; }
 
 /**
  * Responsive specific styling splitted in four parts:

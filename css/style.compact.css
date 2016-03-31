@@ -107,7 +107,7 @@ td, th { height: 72px; }
 
 .frontpage-images { margin: 0 -7px 80px; }
 
-img[data-object-fit="cover"] { object-fit: cover; width: 100%; height: 100%; }
+img[data-object-fit="cover"] { object-fit: cover; }
 
 .frontpage-images > [class^='col'] { position: relative; overflow: hidden; height: 342px; padding: 7px; }
 

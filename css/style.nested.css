@@ -276,9 +276,7 @@ th {
   margin: 0 -7px 80px; }
 
 img[data-object-fit="cover"] {
-  object-fit: cover;
-  width: 100%;
-  height: 100%; }
+  object-fit: cover; }
 
 .frontpage-images > [class^='col'] {
   position: relative;

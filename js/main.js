@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
   $("#nav-trigger").click(function() {
     $(".mobile-navigation").find("li:not(.li-active)").find("ul").hide(1);
     $(".mobile-navigation").toggleClass("nav-active");

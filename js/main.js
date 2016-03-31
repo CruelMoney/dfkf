@@ -1,5 +1,3 @@
-$(document).ready(function() {
-
 
   // ObjectFit Fallback
 
@@ -12,4 +10,3 @@ $(document).ready(function() {
   		});
   	});
   }
-});

@@ -70,7 +70,7 @@ header { margin: 25px 0; }
 
 .panel, .panel-body, .panel-heading { border: 0 !important; border-radius: 0 !important; box-shadow: 0 0 0 0 !important; -webkit-box-shadow: 0 0 0 0 !important; }
 
-.panel-heading { background-color: #f3dbd4; height: 55px; padding-right: 100px; padding-left: 100px; display: flex; align-items: center; }
+.panel-heading { background-color: #f3dbd4; height: 55px; padding-right: 100px; padding-left: 100px; display: flex; align-items: center; cursor: pointer; }
 
 .panel-heading .glyphicon-chevron-up { margin-left: auto; }
 
@@ -78,7 +78,7 @@ header { margin: 25px 0; }
 
 .panel-body { padding: 0; }
 
-.panel-box { background-color: #f3dbd4; height: 100%; padding: 25px; margin: 25px 0; }
+.panel-box { background-color: #f3dbd4; height: 100%; padding: 25px; margin: 25px 0; cursor: pointer; }
 
 .panel-box [class^='h'] { display: inline-block; }
 

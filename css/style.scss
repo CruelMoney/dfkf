@@ -241,7 +241,7 @@ header {
   padding-left    : 100px;
   display         : flex;
   align-items     : center;
-
+  cursor: pointer;
   .glyphicon-chevron-up {
     //Right aligning icon
     margin-left: auto;
@@ -263,7 +263,7 @@ header {
   height          : 100%;
   padding         : 25px;
   margin          : 25px 0;
-
+  cursor: pointer;
   [class^='h'] {
     display: inline-block;
   }

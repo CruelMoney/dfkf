@@ -127,7 +127,7 @@ a {
 }
 
 a:hover {
-  color: black;
+  color: $grey;
 }
 
 blockquote {
@@ -159,7 +159,9 @@ dt {
   font-weight: 700;
 }
 
-address {}
+address {
+  color: $grey;
+}
 
 ol,
 ul {
@@ -203,6 +205,8 @@ header {
 
 .content-page {
   margin-top: 80px;
+  margin-bottom: 40px;
+  float: left;
 }
 
 .logo {
@@ -293,9 +297,11 @@ header {
 }
 
 .line-seperator {
-  border: 1px solid rgb(128,128,128);
+  border-bottom: 1px solid rgb(128,128,128);
   height: 1px;
-  margin: 25px -15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
 }
 
 .row .line-seperator {
@@ -325,7 +331,7 @@ th {
 }
 
 .frontpage-images {
-  margin: 0 -7px 80px;
+  margin: 0 -7px 40px;
 }
 
 .frontpage-images img{
@@ -345,13 +351,13 @@ img[data-object-fit="cover"] {
   padding : 7px;
 
   h1 {
-    font-size     : 40px;
+    font-size     : 30px;
     text-transform: uppercase;
     left          : 30px;
     color         : white;
     position      : absolute;
     width         : 100%;
-    bottom        : 0;
+    top           : 30px;
   }
   //Moving line header under a bit up
   .dfkfHeader:after {
@@ -362,14 +368,15 @@ img[data-object-fit="cover"] {
 .button-header {}
 
 .insta-images {
-  margin-bottom: 80px;
-
+  position: relative;
+  float: left;
+  padding-top: 40px;
+  padding-bottom: 40px;
   [class^='col'] {
     overflow: hidden;
   }
 
   img {
-    object-fit: cover;
     width     : 100%;
     height    : 100%;
   }
@@ -383,7 +390,13 @@ img[data-object-fit="cover"] {
  *Footer styling
  */
 footer {
+  float: left;
+  padding-top: 40px;
   margin-bottom: 80px;
+  border-bottom: 1px solid rgb(128,128,128);
+  border-top: 1px solid rgb(128,128,128);
+  width: 100%;
+
 }
 
 .contact,
@@ -407,6 +420,7 @@ footer {
   background-color: #e3d0c9;
   display         : flex;
   align-items     : center;
+  float: left;
 }
 
 .white-btn {
@@ -499,7 +513,8 @@ footer {
 
 .search-box input {
   text-indent        : 15px;
-  height             : 40px;
+  bottom: 8px;
+  position: absolute;
   z-index            : 2;
   outline            : none;
   background         : white;
@@ -510,6 +525,8 @@ footer {
 
 .expanded {
   width: 180px;
+  margin-left: 20px;
+  border: 1px solid #eee;
 }
 
 .mobile-navigation {
@@ -524,7 +541,6 @@ footer {
   left            : -250px;
   z-index         : 10;
   background-color: white;
-  border          : 1px solid $grey;
 }
 
 .nav-trigger {
@@ -552,7 +568,7 @@ footer {
   }
 
   a:hover {
-    color: $nude;
+    color: $grey;
   }
 
   > ul > li > ul {
@@ -624,8 +640,12 @@ footer {
   }
 
   a:hover {
-    color: $nude;
+    color: $grey;
   }
+}
+
+.opening-hours{
+  color: $grey;
 }
 /**
  * Responsive specific styling splitted in four parts:

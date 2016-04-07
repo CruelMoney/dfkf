@@ -58,7 +58,7 @@ ol, ul { list-style-type: none; }
 .nude { color: #ba8a79 !important; }
 
 /* Element styling begins here */
-.container { width: 80%; background-color: white; }
+.container { background-color: white; }
 
 header { margin: 25px 0; }
 
@@ -80,9 +80,11 @@ header { margin: 25px 0; }
 
 .panel-body { padding: 0; }
 
-.panel-box { background-color: #f3dbd4; height: 100%; padding: 25px; margin: 25px 0; cursor: pointer; }
+.panel-box { background-color: #f3dbd4; height: 100%; padding: 25px; margin: 25px 0; }
 
 .panel-box [class^='h'] { display: inline-block; }
+
+.collapse-button { border: 0; background: transparent; padding: 5px; padding-left: 0px; margin-top: 15px; }
 
 .panel { margin-top: 25px !important; }
 

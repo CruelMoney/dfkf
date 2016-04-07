@@ -195,7 +195,6 @@ ul {
  * Element styling begins here
  */
 .container {
-  width           : 80%;
   background-color: white;
 }
 
@@ -267,11 +266,17 @@ header {
   height          : 100%;
   padding         : 25px;
   margin          : 25px 0;
-  cursor: pointer;
   [class^='h'] {
     display: inline-block;
   }
 }
+
+.collapse-button{
+  border: 0;
+  background: transparent;
+  padding: 5px;
+  padding-left: 0px;
+  margin-top: 15px;}
 
 .panel {
   margin-top: 25px !important;

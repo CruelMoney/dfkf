@@ -205,7 +205,6 @@ header {
 .content-page {
   margin-top: 80px;
   margin-bottom: 40px;
-  float: left;
 }
 
 .logo {
@@ -316,10 +315,14 @@ header {
 /*
  *Styling table elements
  */
+.table-responsive{
+  overflow-x: visible;
+
+}
+
 table {
   border-collapse: collapse;
   width          : 100%;
-  table-layout   : fixed;
 }
 
 table,
@@ -333,6 +336,7 @@ th {
 td,
 th {
   height: 72px;
+  vertical-align: middle !important;
 }
 
 .frontpage-images {
@@ -397,7 +401,8 @@ img[data-object-fit="cover"] {
 footer {
   float: left;
   padding-top: 40px;
-  margin-bottom: 80px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
   border-bottom: 1px solid rgb(128,128,128);
   border-top: 1px solid rgb(128,128,128);
   width: 100%;
@@ -669,9 +674,7 @@ footer {
   *Styling table elements
   */
   table {
-    border-collapse: collapse;
     width          : 100%;
-    table-layout   : fixed;
   }
 
   table,

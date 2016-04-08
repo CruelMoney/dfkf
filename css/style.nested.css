@@ -174,8 +174,7 @@ header {
 
 .content-page {
   margin-top: 80px;
-  margin-bottom: 40px;
-  float: left; }
+  margin-bottom: 40px; }
 
 .logo {
   height: 80px;
@@ -269,10 +268,12 @@ header {
 /*
  *Styling table elements
  */
+.table-responsive {
+  overflow-x: visible; }
+
 table {
   border-collapse: collapse;
-  width: 100%;
-  table-layout: fixed; }
+  width: 100%; }
 
 table,
 td,
@@ -283,7 +284,8 @@ th {
 
 td,
 th {
-  height: 72px; }
+  height: 72px;
+  vertical-align: middle !important; }
 
 .frontpage-images {
   margin: 0 -7px 40px; }
@@ -333,7 +335,8 @@ img[data-object-fit="cover"] {
 footer {
   float: left;
   padding-top: 40px;
-  margin-bottom: 80px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
   border-bottom: 1px solid gray;
   border-top: 1px solid gray;
   width: 100%; }
@@ -553,9 +556,7 @@ footer {
   *Styling table elements
   */
   table {
-    border-collapse: collapse;
-    width: 100%;
-    table-layout: fixed; }
+    width: 100%; }
   table,
   td,
   th {

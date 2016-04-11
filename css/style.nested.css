@@ -248,7 +248,7 @@ header {
 /**
  * Image elements
  */
-.third-width-img {
+.content-img {
   width: 100%; }
 
 .image-text {
@@ -539,6 +539,17 @@ footer {
 
 .opening-hours {
   color: #969F9E; }
+
+.search-area {
+  padding: 40px 10% 40px 10%;
+  background-color: #f3dbd4;
+  margin-bottom: 40px;
+  margin-top: 20px; }
+  .search-area input {
+    width: 100%;
+    border: none;
+    height: 40px;
+    padding-left: 10px; }
 
 /**
  * Responsive specific styling splitted in four parts:

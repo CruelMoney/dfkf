@@ -94,7 +94,7 @@ header { margin: 25px 0; }
 .glyphicon-chevron-up.collapsed { transform: rotate(180deg); }
 
 /** Image elements */
-.third-width-img { width: 100%; }
+.content-img { width: 100%; }
 
 .image-text { color: #969F9E; margin-top: 20px; }
 
@@ -211,6 +211,10 @@ footer { float: left; padding-top: 40px; padding-bottom: 40px; margin-bottom: 40
 .side-menu a:hover { color: #969F9E; }
 
 .opening-hours { color: #969F9E; }
+
+.search-area { padding: 40px 10% 40px 10%; background-color: #f3dbd4; margin-bottom: 40px; margin-top: 20px; }
+
+.search-area input { width: 100%; border: none; height: 40px; padding-left: 10px; }
 
 /** Responsive specific styling splitted in four parts: First part: Xs devices (768px and down) Second part: Small devices (tablets, 768px and up) Third part: Medium devices (desktops, 992px and up) Fourth part: Large devices (large desktops, 1200px and up) */
 /* Small devices (tablets, 768px and down) */

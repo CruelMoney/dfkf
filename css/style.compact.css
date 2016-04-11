@@ -218,13 +218,13 @@ footer { float: left; padding-top: 40px; padding-bottom: 40px; margin-bottom: 40
   /* Styling table elements */
   table { width: 100%; }
   table, td, th { border: 1px solid #969F9E; text-transform: uppercase; text-align: center; }
-  td, th { height: 72px; font-size: 12px; }
-  .main-menu, .toolbar { display: none; }
+  td, th { height: 72px; font-size: 12px; } }
+
+@media (max-width: 990px) { .main-menu, .toolbar { display: none; }
   .nav-trigger { display: block; }
   .side-menu { display: none; } }
 
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
-@media (max-width: 992px) { .container { width: 100%; } }
-
 /* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { .frontpage-images > [class^='col'] { height: 380px; } }

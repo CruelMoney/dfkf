@@ -690,7 +690,9 @@ footer {
     height   : 72px;
     font-size: 12px;
   }
+}
 
+@media (max-width: 990px) {
   .main-menu,
   .toolbar {
     display: none;
@@ -704,13 +706,16 @@ footer {
     display: none;
   }
 }
+
 /* Small devices (tablets, 768px and up) */
 @media (max-width: $screen-sm) {}
 /* Medium devices (desktops, 992px and up) */
 @media (max-width: $screen-md) {
-  .container {
-    width: 100%;
-  }
+
 }
 /* Large devices (large desktops, 1200px and up) */
-@media (max-width: $screen-lg) {}
+@media (min-width: $screen-lg) {
+  .frontpage-images > [class^='col'] {
+    height  : 380px;
+  }
+}

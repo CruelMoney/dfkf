@@ -304,9 +304,8 @@ header {
 .line-seperator {
   border-bottom: 1px solid rgb(128,128,128);
   height: 1px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .row .line-seperator {
@@ -380,8 +379,8 @@ img[data-object-fit="cover"] {
 .insta-images {
   position: relative;
   float: left;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   [class^='col'] {
     overflow: hidden;
   }
@@ -401,8 +400,8 @@ img[data-object-fit="cover"] {
  */
 footer {
   float: left;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 50px;
+  padding-bottom: 20px;
   margin-bottom: 40px;
   border-bottom: 1px solid rgb(128,128,128);
   border-top: 1px solid rgb(128,128,128);
@@ -424,14 +423,6 @@ footer {
     text-decoration: none;
     display        : block;
   }
-}
-
-.cookie-popup {
-  height          : 170px;
-  background-color: #e3d0c9;
-  display         : flex;
-  align-items     : center;
-  float: left;
 }
 
 .white-btn {
@@ -672,6 +663,138 @@ footer {
     }
 }
 
+
+.frontpage-images>[class^='col'] > a:hover .dfkfHeader:after {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+.frontpage-images>[class^='col'] .dfkfHeader:after {
+    -webkit-transform: translateY(15px);
+            transform: translateY(15px);
+    top: 0;
+    transition: .2s;
+}
+.frontpage-images img {
+    width: 100%;
+    height: 100%;
+    transition: .2s;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+}
+.frontpage-images > div > a:hover img {
+    -webkit-filter: brightness(.8);
+            filter: brightness(.8);
+}
+.toolbar>a:hover img {
+    -webkit-filter: brightness(2);
+           filter: brightness(2);
+}
+
+
+//Scroll i mobilmenu + fjern scroll på body, når mobilmenuen er aktiv
+.overflow-hidden { overflow: hidden; }
+.mobile-navigation { overflow: scroll; }
+
+.cookie-popup {
+    height: 170px;
+    background-color: #e3d0c9;
+    display: flex;
+    position: fixed;
+    max-width: 1140px;
+    align-items: center;
+    bottom: 0;
+    /* float: left; */
+}
+
+.sign-up-area{
+  padding: 40px 10% 40px 10%;
+  background-color: $grey;
+  margin-bottom: 40px;
+  margin-top: 20px;
+    input{
+      width: 100%;
+      border: none;
+      height: 40px;
+      padding-left: 10px;
+      border-radius: 0px;
+    }
+    label{
+      font-weight: 500;
+    }
+    .required{
+      label:after{
+        content            : " *";
+      }
+    }
+    .checkbox-label {
+  padding-left: 0px;
+  -webkit-user-select: none;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  line-height: 2.5;
+  margin-left: 50px
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]  ~ .checkbox-label:before {
+  content: '';
+  top: 0;
+  width: 40px;
+  height: 40px;
+  display: block;
+  position: absolute;
+  background-color: white;
+  margin-left: -50px
+}
+
+input[type="checkbox"]  ~ .checkbox-label:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  content: '';
+  width: 9px;
+  height: 18px;
+  margin: 10px 10px 0 15px;
+  border: solid #eee;
+  border-width: 0 5px 5px 0;
+  transform: rotate(45deg);
+  margin-left: -35px
+
+}
+
+input[type="checkbox"]:checked ~ .checkbox-label:after {
+  border: solid #222;
+  border-width: 0 5px 5px 0;
+  transform: rotate(45deg);
+  animation: pop 0.2s;
+}
+
+@keyframes pop {
+  0%   { transform: scale(0) rotate(45deg);   }
+  90%  { transform: scale(1.3) rotate(45deg); }
+  100% { transform: scale(1) rotate(45deg);   }
+}
+.checkbox{
+margin-top: 40px;
+margin-bottom: 40px;
+}
+}
+
+//removing arrows from number input
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+
+
 /**
  * Responsive specific styling splitted in four parts:
  * First part: Xs devices (768px and down)
@@ -725,8 +848,10 @@ footer {
 /* Small devices (tablets, 768px and up) */
 @media (max-width: $screen-sm) {}
 /* Medium devices (desktops, 992px and up) */
-@media (max-width: $screen-md) {
-
+@media (min-width: $screen-md) {
+ .main-menu{
+   line-height: 1;
+ }
 }
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: $screen-lg) {
